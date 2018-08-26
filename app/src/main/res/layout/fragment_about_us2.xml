@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/profilephoto"
+        android:id="@+id/profilephoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilephoto"
+        android:id="@+id/textlayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This app is made by Abhinandan H"
+            android:id="@+id/line1"
+            android:textSize="17sp"
+            android:textColor="#111111"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : habhinandan98@gmail.com"
+            android:layout_below="@+id/line1"
+            android:id="@+id/line2"
+            android:textColor="#111111"
+            android:textSize="17sp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Version = 1.0"
+            android:layout_below="@+id/line2"
+            android:textSize="17sp"
+            android:id="@+id/line3"
+            android:textColor="#111111"
+            android:layout_marginLeft="115dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
